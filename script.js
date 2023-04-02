@@ -4,6 +4,8 @@ works for 99.99%
 
 */
 
+var HTML = document;
+
 const Sys_obAPIWTRC = new MutationObserver(x => {
     try {
         if (HTML.RTCPeerConnection) {
