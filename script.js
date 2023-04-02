@@ -1,6 +1,7 @@
 /*
 
 works for 99.99%
+today we will override your public IPV4 to local IPV4 in p2p connection
 
 */
 
