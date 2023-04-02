@@ -31,3 +31,11 @@ const Sys_obAPIWTRC = new MutationObserver(x => {
     }
 });
 Sys_obAPIWTRC.observe(HTML, { attributes: true, childList: true, subtree: true });
+
+function Client_Get_Log(Data) {
+    try {
+        console.log(Data);
+    } catch (error) {
+        alert('System logs failed')
+    }
+}
